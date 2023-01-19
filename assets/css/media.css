@@ -1,0 +1,195 @@
+@media all and (max-width: 579px) {
+
+    .main-content {
+        max-width: 120rem;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    .menu ul li a {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+     
+    .icon-home {
+        height: 25px;
+        width: 40px;
+    }
+
+    .intro-content {
+        display: inline;
+        grid-template-columns: 1fr;
+        min-height: 100vh;
+
+    }
+
+    .divisao-grid {
+        margin-right: 0rem;
+    }
+
+    .intro-text-content,
+    .intro-img {
+        display: block;
+    }
+
+    .home-img img {
+        max-width: 100%;
+        height: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .home-content h2#mobile-al {
+        text-align: left !important;
+        margin-bottom: 2rem;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        text-align: center;
+    }
+
+    .title-animes {
+        font-size: 1.4rem;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .sinopse {
+        font-size: 1.5rem;
+        margin-top: 0rem;
+    }
+
+    .conteudo {
+        height: 13rem;
+        padding-bottom: 4rem;
+    }
+
+    .grid-animes {
+        display: flex;
+        flex-flow: column nowrap;
+        min-height: 100vh;
+        margin-top: 0rem;
+    }
+
+    .grid-galeria {
+        display: inline;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        text-align: center;
+    }
+
+    .galeria-img {
+        width: 100%;
+        max-width: 100%;
+        max-height: 36rem;
+        overflow: hidden;
+    }
+
+}
+
+@media all and (min-width: 580px) and (max-width: 850px) {
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    .menu ul li a {
+        font-size: 1.5rem;
+    }
+
+    .icon-home {
+        height: 25px;
+        width: 40px;
+    }
+
+    .intro-content {
+        display: inline;
+        grid-template-columns: 1fr;
+        min-height: 100vh;
+
+    }
+
+    .divisao-grid {
+        margin-right: 0rem;
+    }
+
+    .intro-text-content,
+    .intro-img {
+        display: flex;
+    }
+
+    .home-img img {
+        max-width: 100%;
+        height: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .home-content h2#mobile-al {
+        text-align: left !important;
+        margin-bottom: 2rem;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        text-align: center;
+    }
+
+    .title-animes {
+        font-size: 1.4rem;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .sinopse {
+        font-size: 1.5rem;
+        margin-top: 0rem;
+    }
+
+    .conteudo {
+        height: 13rem;
+        padding-bottom: 4rem;
+    }
+
+    .grid-animes {
+        display: flex;
+        flex-flow: column nowrap;
+        min-height: 100vh;
+        margin-top: 0rem;
+    }
+
+    .grid-galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        text-align: center;
+    }
+}
+
+
+@media all and (min-width: 851px) and (max-width: 1330px) {
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        text-align: center;
+    }
+
+}
