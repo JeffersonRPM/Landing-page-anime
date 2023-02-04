@@ -2,17 +2,20 @@
 A simple landing page made in HTML and CSS has five anchors. The theme chosen is related to anime, the theme adopted is dark mode. In this project, grid, accessibility, responsive design, mobile, transitions, forms, among others, were addressed.
 
 ## Desktop
-![image](https://user-images.githubusercontent.com/48998618/213408466-c5faa670-841b-4f24-89b3-22f8360c2118.png)
-![image](https://user-images.githubusercontent.com/48998618/213408637-d8ba3ed6-a0a8-467e-ad65-67745e1d9a22.png)
-![image](https://user-images.githubusercontent.com/48998618/213409616-36a9ba1c-6a6c-4b03-a92f-81c053b99210.png)
-![image](https://user-images.githubusercontent.com/48998618/213409816-33151f8d-c7eb-400e-b000-6123bcc8d8df.png)
-![image](https://user-images.githubusercontent.com/48998618/213410083-1bcb5d10-a117-41b9-a1ef-d6d102a68dee.png)
+![image](https://user-images.githubusercontent.com/48998618/216755923-6b7718c3-47f4-4356-88f7-c2ef2ab77549.png)<hr>
+![image](https://user-images.githubusercontent.com/48998618/216755960-49d41337-a3d9-4cf0-bf69-1a448c1ea42f.png)<hr>
+![image](https://user-images.githubusercontent.com/48998618/216756040-46f513ea-0084-48c9-b88f-f0f263078ebf.png)<hr>
+![image](https://user-images.githubusercontent.com/48998618/216756085-5297a310-41a0-4149-a6a2-8d3df5c35dfc.png)<hr>
+![image](https://user-images.githubusercontent.com/48998618/216756299-141d40b9-1cd2-49f6-8401-cb3c6313ca8e.png)
 
 ## Mobile
-![image](https://user-images.githubusercontent.com/48998618/213410958-706f5735-cb9f-4563-833f-42d6c05a58b2.png)
-![image](https://user-images.githubusercontent.com/48998618/213411172-fa8ddb28-2706-4520-ae0f-d4a8b5656b20.png)
+![image](https://user-images.githubusercontent.com/48998618/216756734-7db34c32-c6cf-4bce-a575-6f596805a640.png)  
+![image](https://user-images.githubusercontent.com/48998618/216756768-676cefd5-c75c-4494-99f7-8ff8ba70326c.png)
 <br>
-![image](https://user-images.githubusercontent.com/48998618/213411298-ceae2d4d-acf2-4831-ba61-a4d82ed2ab5c.png)
-![image](https://user-images.githubusercontent.com/48998618/213411481-19081a50-5440-4170-a460-4433e01abd88.png)
 
- 
+![image](https://user-images.githubusercontent.com/48998618/216756994-28b27bd3-7efa-43a3-97a6-ccf1cd039048.png)  
+![image](https://user-images.githubusercontent.com/48998618/216756944-f84e5b3f-d021-4baf-91b8-b4669fc1f37a.png)
+<br>
+
+![image](https://user-images.githubusercontent.com/48998618/216757058-ac14306c-7b10-4c0c-abac-16b0951d1605.png)
+
