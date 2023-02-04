@@ -58,8 +58,7 @@
         z-index: 2;
         top: 1rem;
         right: 2rem;
-        color: var(--darkgray-color);
-        background-color: var(--primary-color);
+        color: var(--primary-color);
         font-size: 3rem;
         line-height: 3rem;
         width: 3rem;
@@ -76,6 +75,7 @@
 
     .close-menu:checked~.close-menu-label::after {
         content: '×';
+        color: var(--darkgray-color);
     }
 
     .icon-home {
