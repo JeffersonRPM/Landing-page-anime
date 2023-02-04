@@ -1,5 +1,9 @@
 @media all and (max-width: 579px) {
 
+    ::-webkit-scrollbar {
+        width: 0rem;
+    }
+
     .main-content {
         max-width: 120rem;
         margin: 0 auto;
@@ -202,5 +206,5 @@
         grid-template-rows: 33% 33% 33%;
         min-height: 100vh;
     }
- 
+
 }
