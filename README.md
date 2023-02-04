@@ -9,13 +9,12 @@ A simple landing page made in HTML and CSS has five anchors. The theme chosen is
 ![image](https://user-images.githubusercontent.com/48998618/216756299-141d40b9-1cd2-49f6-8401-cb3c6313ca8e.png)
 
 ## Mobile
-![image](https://user-images.githubusercontent.com/48998618/216756734-7db34c32-c6cf-4bce-a575-6f596805a640.png)<br>
+![image](https://user-images.githubusercontent.com/48998618/216770638-7e53ec07-ed38-4a97-93cb-240208f0c855.png) 
+![image](https://user-images.githubusercontent.com/48998618/216770676-bc157361-8b20-487a-b818-8b2ee6f5523a.png) 
+![image](https://user-images.githubusercontent.com/48998618/216770706-5f250e24-4e51-4a45-9717-6f17f9ae822b.png) 
+![image](https://user-images.githubusercontent.com/48998618/216770748-dd8874b0-60f5-4129-831e-1e624b38775a.png) 
+![image](https://user-images.githubusercontent.com/48998618/216770777-ba491adb-7565-4cea-bbab-654265b94e25.png) 
+![image](https://user-images.githubusercontent.com/48998618/216770800-9b139681-a1d5-46ed-93a4-aa35c0143ac5.png)
 
-![image](https://user-images.githubusercontent.com/48998618/216756768-676cefd5-c75c-4494-99f7-8ff8ba70326c.png)<br>
 
-![image](https://user-images.githubusercontent.com/48998618/216756994-28b27bd3-7efa-43a3-97a6-ccf1cd039048.png)<br>
-
-![image](https://user-images.githubusercontent.com/48998618/216756944-f84e5b3f-d021-4baf-91b8-b4669fc1f37a.png)<br>
-
-![image](https://user-images.githubusercontent.com/48998618/216757058-ac14306c-7b10-4c0c-abac-16b0951d1605.png)
 
