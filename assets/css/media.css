@@ -18,7 +18,7 @@
         font-size: 1.2rem;
         padding: 1rem;
     }
-     
+
     .icon-home {
         height: 25px;
         width: 40px;
@@ -190,6 +190,17 @@
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         text-align: center;
+    }
+
+}
+
+@media all and (max-height: 550px) {
+
+    .intro-content {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 33% 33% 33%;
+        min-height: 100vh;
     }
 
 }
