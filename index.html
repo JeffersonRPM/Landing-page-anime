@@ -16,16 +16,20 @@
     <link rel="stylesheet" href="assets/css/scrollbar.css">
     <link rel="stylesheet" href="assets/css/media.css">
     <link rel="icon" type="image/x-icon" href="assets/img/icon.ico">
-    
+
 </head>
- 
+
 <body class="classic-bg">
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
     <aside class="menu">
         <div class="main-content menu-content">
-            <h1 style="margin-top: 0.7rem;"><a href="#home"><img class="icon-home" src="assets/img/home.png"
+            <h1 onclick="getElementById('close-menu').checked = false;" style="margin-top: 0.7rem;"><a href="#home"><img
+                        class="icon-home" src="assets/img/home.png"
                         alt="Logo de uma casa, ao clicar voltara para o começo da pagina"></a></h1>
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false;">
                     <li><a href="#top3">Top 3</a></li>
                     <li><a href="#animes">Animes</a></li>
                     <li><a href="#galeria">Galeria</a></li>
@@ -247,7 +251,7 @@
         </div>
     </section>
 
-    <section class="section classic-bg">
+    <form action="https://formsubmit.co/jefferson.martines@hotmail.com" method="POST" class="section classic-bg">
         <div id="contato" class="menu-spacing"></div>
         <div class="home-content">
             <h2 style="text-align: center;">Contato</h2>
@@ -256,29 +260,30 @@
             <fieldset class="form-grid">
                 <div class="form-group">
                     <label for="primeiro-nome">Primeiro Nome</label>
-                    <input type="text" name="primeiro-nome" id="primeiro-nome" placeholder="Seu Nome">
+                    <input type="text" name="primeiro-nome" id="primeiro-nome" placeholder="Seu Nome" required>
                 </div>
                 <div class="form-group">
                     <label for="ultimo-nome">Último Nome</label>
-                    <input type="text" name="ultimo-nome" id="ultimo-nome" placeholder="Seu Último Nome">
+                    <input type="text" name="ultimo-nome" id="ultimo-nome" placeholder="Seu Último Nome" required>
                 </div>
                 <div class="form-group">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" placeholder="Seu E-mail">
+                    <input type="email" name="email" id="email" placeholder="Seu E-mail" required>
                 </div>
                 <div class="form-group full-width">
                     <label for="mensagem">Mensagem</label>
-                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+                    <textarea style="resize: vertical;" name="mensagem" id="mensagem" cols="30" rows="10"
+                        placeholder="Sua Mensagem" required></textarea>
                 </div>
                 <div style="text-align: right;" class="form-group full-width">
                     <button type="submit">Enviar</button>
                 </div>
             </fieldset>
         </div>
-    </section>
+    </form>
 
     <footer>
-        <p class="darkgray-bg footer-cl">By Jefferson Martines</p>
+        <a href="#home"><p class="darkgray-bg footer-cl">By Jefferson Martines</p></a>
     </footer>
 </body>
 

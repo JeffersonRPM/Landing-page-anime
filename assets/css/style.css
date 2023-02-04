@@ -313,10 +313,14 @@ body .full-width {
     color: var(--gray-color);
 }
 
-.footer-cl {
+.close-menu {
+    display: none;
+}
 
+.footer-cl {
     text-align: center;
     padding: 1rem 0 1rem 0;
     font-family: 'Montserrat', sans-serif;
+    color: inherit;
+    color: var(--primary-color) !important;
 }
-
