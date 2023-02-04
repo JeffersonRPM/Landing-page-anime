@@ -18,9 +18,64 @@
         font-size: 2.5rem;
     }
 
-    .menu ul li a {
-        font-size: 1.2rem;
-        padding: 1rem;
+    .menu {
+        bottom: 0;
+        text-align: center;
+    }
+
+    .menu-content,
+    .menu-content ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu-content {
+        height: 100vh;
+    }
+
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 1;
+        border-bottom: 0.1rem solid var(--gray-color);
+        background-color: var(--primary-color);
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-spacing {
+        height: 4.6rem !important;
+    }
+
+    .close-menu-label::after {
+        content: '☰';
+        position: fixed;
+        z-index: 2;
+        top: 1rem;
+        right: 2rem;
+        color: var(--darkgray-color);
+        background-color: var(--primary-color);
+        font-size: 3rem;
+        line-height: 3rem;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        padding: 0.3rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .close-menu:checked~.menu {
+        display: block;
+    }
+
+    .close-menu:checked~.close-menu-label::after {
+        content: '×';
     }
 
     .icon-home {
@@ -198,7 +253,7 @@
 
 }
 
-@media all and (max-height: 550px) {
+@media all and (max-height: 500px) {
 
     .intro-content {
         display: grid;
